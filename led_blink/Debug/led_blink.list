@@ -1,5 +1,5 @@
 
-led_blink.elf:     file format elf32-littlearm
+LED_Blink.elf:     file format elf32-littlearm
 
 Sections:
 Idx Name          Size      VMA       LMA       File off  Algn

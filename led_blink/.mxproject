@@ -9,17 +9,17 @@ CDefines=USE_HAL_DRIVER;STM32WB55xx;USE_HAL_DRIVER;USE_HAL_DRIVER;
 [PreviousGenFiles]
 AdvancedFolderStructure=true
 HeaderFileListSize=3
-HeaderFiles#0=D:/Projects_FreeL/BLE_STM32/project_ws/cubeIDE_projects_ws/led_blink/Core/Inc/stm32wbxx_it.h
-HeaderFiles#1=D:/Projects_FreeL/BLE_STM32/project_ws/cubeIDE_projects_ws/led_blink/Core/Inc/stm32wbxx_hal_conf.h
-HeaderFiles#2=D:/Projects_FreeL/BLE_STM32/project_ws/cubeIDE_projects_ws/led_blink/Core/Inc/main.h
+HeaderFiles#0=D:/Projects_FreeL/BLE_STM32/project_ws/cubeIDE_projects_ws/LED_Blink/Core/Inc/stm32wbxx_it.h
+HeaderFiles#1=D:/Projects_FreeL/BLE_STM32/project_ws/cubeIDE_projects_ws/LED_Blink/Core/Inc/stm32wbxx_hal_conf.h
+HeaderFiles#2=D:/Projects_FreeL/BLE_STM32/project_ws/cubeIDE_projects_ws/LED_Blink/Core/Inc/main.h
 HeaderFolderListSize=1
-HeaderPath#0=D:/Projects_FreeL/BLE_STM32/project_ws/cubeIDE_projects_ws/led_blink/Core/Inc
+HeaderPath#0=D:/Projects_FreeL/BLE_STM32/project_ws/cubeIDE_projects_ws/LED_Blink/Core/Inc
 HeaderFiles=;
 SourceFileListSize=3
-SourceFiles#0=D:/Projects_FreeL/BLE_STM32/project_ws/cubeIDE_projects_ws/led_blink/Core/Src/stm32wbxx_it.c
-SourceFiles#1=D:/Projects_FreeL/BLE_STM32/project_ws/cubeIDE_projects_ws/led_blink/Core/Src/stm32wbxx_hal_msp.c
-SourceFiles#2=D:/Projects_FreeL/BLE_STM32/project_ws/cubeIDE_projects_ws/led_blink/Core/Src/main.c
+SourceFiles#0=D:/Projects_FreeL/BLE_STM32/project_ws/cubeIDE_projects_ws/LED_Blink/Core/Src/stm32wbxx_it.c
+SourceFiles#1=D:/Projects_FreeL/BLE_STM32/project_ws/cubeIDE_projects_ws/LED_Blink/Core/Src/stm32wbxx_hal_msp.c
+SourceFiles#2=D:/Projects_FreeL/BLE_STM32/project_ws/cubeIDE_projects_ws/LED_Blink/Core/Src/main.c
 SourceFolderListSize=1
-SourcePath#0=D:/Projects_FreeL/BLE_STM32/project_ws/cubeIDE_projects_ws/led_blink/Core/Src
+SourcePath#0=D:/Projects_FreeL/BLE_STM32/project_ws/cubeIDE_projects_ws/LED_Blink/Core/Src
 SourceFiles=;
 
