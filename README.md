@@ -34,8 +34,10 @@ LED3 -> PB1, Red
 		: Add -> USART1_RX  
 		: Add -> USART1_TX  
 	|- NVIC Settings  
+		: DMA1 channel1 global interrupt -> Enabled  
+		: DMA1 channel2 global interrupt -> Enabled  
 		: USART1 global interrupt -> Enabled  
-7. Enable and configure BLE  
+7. Enable and configure BLE (Middleware)  
 	|- BLE Applications and Services  
 		: Custon P2P Server -> Disabled  
 		: Custom Template -> Enabled  
@@ -46,7 +48,7 @@ LED3 -> PB1, Red
 		: Generic parameters > CFG_DEBUG_APP_TRACE -> Enabled  
 	|- BLE Advertising  
 		: Advertising elements > Include AD_TYPE_COMPLETE_LOCAL_NAME element -> Yes  
-			: AD_TYPE_COMPLETE_LOCAL_NAME -> <Name> (e.g. STM32_BLE)  
+			: AD_TYPE_COMPLETE_LOCAL_NAME -> <Name> (e.g. STM32-BLE)  
 	|- BLE GATT  
 		: Services configuration > Number of services -> 1  
 		: Service1 > Service long name -> <Name> (e.g. MY_SRV)  
@@ -58,7 +60,12 @@ LED3 -> PB1, Red
 		: Characteristics1 properties > CHAR_PROP_BROADCAST -> No  
 		: Characteristics1 properties > CHAR_PROP_READ -> Yes  
 		: Characteristics1 GATT events > GATT_NOTIFY_ATTRIBUTE_WRITE -> No  
-		: Characteristics1 GATT events >  GATT_NOTIFY_WRITE_REQ_AND_WAIT_FOR_APPL_RESP -> No  
+		: Characteristics1 GATT events > GATT_NOTIFY_WRITE_REQ_AND_WAIT_FOR_APPL_RESP -> No  
 		: Characteristics1 GATT events > GATT_NOTIFY_READ_REQ_AND_WAIT_FOR_APPL_RESP -> No  
 8. Go to 'Project Manager' > 'Advanced Settings'  
 	-> MX_USART1_UART_Init -> 'Do not Generate Function Call' -> ticked and 'Visibility (Static)' -> unticked  
+9. Clock Configuration  
+		: HCLK1 (MHz) -> 32  
+		: HCLK2 (MHz) -> 32  
+		: RTC/LCD Source Mux -> LSE  
+		: RFWKP Clock Mux -> LSE  
